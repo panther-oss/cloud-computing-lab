@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - PES1UG22CS405</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 5px solid white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            object-fit: cover;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .about {
+            background: #f4f4f4;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img
+        src="https://qaujchnwvwejhjvslgbb.supabase.co/storage/v1/object/public/image1/pes1ug22cs405.jpg"
+        alt="Profile Picture"
+        class="profile-img"
+    >
+
+    <h1>Munnu</h1>
+    <p>Cloud Computing Enthusiast | Student</p>
+    <p><strong>SRN:</strong> PES1UG22CS405</p>
+</header>
+
+<div class="container">
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science student learning Cloud Computing concepts.
+            This portfolio demonstrates practical implementation of
+            IaaS (Supabase Object Storage),
+            PaaS (PythonAnywhere Flask),
+            and SaaS (Vercel Deployment).
+        </p>
+    </section>
+
+    <section>
+        <h2>Cloud Lab Implementation</h2>
+        <ul>
+            <li><strong>IaaS:</strong> Supabase Object Storage</li>
+            <li><strong>PaaS:</strong> Flask Application on PythonAnywhere</li>
+            <li><strong>SaaS:</strong> Portfolio Website on Vercel</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 | PES University | Cloud Computing Lab</p>
+</footer>
+
+</body>
+</html>
